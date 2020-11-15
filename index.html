@@ -29,17 +29,19 @@
               <a class="nav-link" href="#"><div class="hitrash-words">HITRASH</div><div class="solution-words">SOLUTION OF YOUR TRASH</div><span class="sr-only">(current)</span></a>
             </li>
           </ul>
-          <span class="header">
+          <a href="#tentang"><span class="header">
             TENTANG
-          </span>
-          <span class="header">
+          </span></a>
+          <a href="#aplikasi"><span class="header">
             APLIKASI
-          </span>
-          <span class="border-header">
+          </span></a>
+          <a href="#hubungi"><span class="border-header">
             HUBUNGI KAMI
-          </span>
+          </span></a>
         </div>
     </nav>
+    
+    <!-- PART 1-->
     <div class="konten row">
       <div class="col-6">
         <p class="judul-konten1">
@@ -52,24 +54,25 @@
         </p>
         <br>
         <div class="konten1">
-        <span class="border-header"  >
-          Join with us
-        </span>
-      </div>
-
+          <span class="border-header"  >
+            Join with us
+          </span>
+        </div>
       </div>
       <div class="col-6">
         <img src="assets/img/animasi4.png" width="500px" height="455px">
       </div>
     </div>
-    <div class="konten part2 row">
+    <!-- END PART 1-->
+    <!-- PART 2-->
+    <div class="konten part2 row" id="tentang">
       <div class="col-7">
         <p class="judul-konten2">Tentang <span class="text-blue">HiTrash</span></p>
-        <p class="konten2">
+        <p class="konten1">
           HiTrash merupakan sebuah platfrom digital berbasis android
           yang bergerak dibidang lingkungan, khususnya pengolahan sampah plastik
         </p>
-        <p class="konten2">HiTrash menyediakan sistem pengelolaan sampah dari sumber 
+        <p class="konten1">HiTrash menyediakan sistem pengelolaan sampah dari sumber 
           hingga akhir melalui pengoptimalan peran pelaku daur ulang sampah 
           dengan menggunakan teknologi tepat guna untuk menciptakan 
           rantai daur ulang.</p>
@@ -80,19 +83,115 @@
         </div>
       </div>
     </div>
+    <!-- END PART 2-->
+    <!-- PART 3-->
+    <div class="konten row" id="aplikasi">
+      <div class="col-5">
+        <img src="assets/img/no background.png" class="gambar3-hp">
+
+      </div>
+      <div class="col-7">
+        <div class="row">
+          <p class="judul-konten3"><b>Aplikasi <span class="text-blue">HiTrash</span> </b></p>
+          <div class="col-6">
+            <img src="assets/img/human-resources.svg" class="gambar3"><br><br>
+          
+            <p class="konten3">
+              Gabung Menjadi<br>
+              Nasabah
+            </p>
+            <p class="sub-konten3">
+              Anda dapat mencari dan bergabung <br> menjadi nasbah pada pengelola sampah pilihan anda.
+            </p>
+
+          </div>
+          <div class="col-6">
+            <img src="assets/img/vehicle.svg" class="gambar3"><br><br>
+            <p class="konten3">
+              Jemput Sampah
+            </p>
+            <p class="sub-konten3">
+              Anda dapat melakukan request dan menjadwalkan agar sampah anda diangkut oleh pengelola sampah anda.
+            </p>
+
+          </div>
+          <div class="col-6">
+            <img src="assets/img/growth.svg" class="gambar3"><br><br>
+          
+            <p class="konten3">
+              Ubah Sampahmu
+            </p>
+            <p class="sub-konten3">
+              Anda mendapatkan keuntungan ketika anda melakukan transaksi sampah dengan menggunakana aplikasi kami.
+            </p>
+
+          </div>
+          <div class="col-6">
+            <img src="assets/img/ecommerce.svg" class="gambar3"><br><br>
+            <p class="konten3">
+              Marketplace
+            </p>
+            <p class="sub-konten3">
+              Pada marketplace kami anda bisa membeli produk produk reuseable menggunakan coin hasil menukarkan sampah anda.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <!-- END PART 3-->
+      <!-- PART 4-->
+      <div class="konten part2 row">
+        <div class="col-7">
+          <p class="judul-konten4">Aplikasi   <span class="text-blue">Driver HiTrash</span></p>
+          <p class="konten1">
+            Hitrash Driver adalah sebuah aplikasi yang menghubungkan antara 
+            user dan driver yang bertugas menjemput sampah anda.
+          </p>
+          <p class="konten1">
+            <img src="">
+          </p>
+          <div class="konten1">
+            <span class="border-header"  >
+              Join with us
+            </span>
+          </div>
+          
+        </div>
+        <div class="col-5">
+          <div class="gambar-konten4">
+            <img src="assets/img/iphone-x-mockup-scene@2x.png" width="130%" >
+          </div>
+        </div>
+      </div>
+      <!-- END PART 4-->
+      <!-- PART 5-->
+      <div class="container-fluid" id="hubungi">
+        <div class="konten row">
+          <div class="col-12 footer">
+            <p class="judul-konten5 text-blue">Hubungi Kami</p>
+            <p>
+              Hitrash.id<br>
+              +62 8882136670<br>
+              contact@hitrashindonesia.id<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- END PART 5-->
+    </div>
     <script>
       window.onscroll = function() {myFunction()};
       
       var header = document.getElementById("myHeader");
       var sticky = header.offsetTop;
       
-      function myFunction() {
-        if (window.pageYOffset > sticky) {
-          header.classList.add("sticky");
-        } else {
-          header.classList.remove("sticky");
-        }
-      }
+//      function myFunction() {
+//        if (window.pageYOffset > sticky) {
+//          header.classList.add("sticky");
+//        } else {
+//          header.classList.remove("sticky");
+//        }
+//      } 
       </script>
 </body>
 </html>

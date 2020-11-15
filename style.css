@@ -18,7 +18,7 @@
 }
 .header {
     
-    
+    color:black;
     margin: 20px 20px 20px 20px;
     font-size: 16px;
 }
@@ -51,6 +51,8 @@
     font-size:30px;
     margin-top:153px;
     margin-left : 150px;
+    font-weight: bold;
+
 }
 .konten1{
     font-size:20px;
@@ -64,6 +66,7 @@
     margin-top:153px;
     margin-left : 150px;
     margin-bottom: 70px;
+    font-weight: bold;
 }
 .konten2{
     font-size:20px;
@@ -86,4 +89,42 @@
 }
 .text-blue{
     color:#207DFF;
+}
+.judul-konten3{
+    font-size:48px;
+    margin-top:20px;
+    margin-left:250px;
+
+}
+.gambar3{
+    width:70px;
+    height: 70px;
+}
+
+.sub-konten3{
+    font-size:15px;
+}
+.gambar3-hp{
+    margin-left :150px;
+    margin-top:70px;
+    width:70%;
+}
+.judul-konten4{
+    font-size:48px;
+    margin-top:153px;
+    margin-left : 150px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.gambar4{
+    margin-right:20px;
+}
+.footer{
+    background-color:white;
+    text-align: center;
+    margin:auto;
+}
+.judul-konten5{
+    font-size:48px;
+    font-weight: bold;
 }
