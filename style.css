@@ -1,0 +1,89 @@
+@font-face { font-family: integral; src: url('assets/fonts/IntegralCF-Medium.otf'); } 
+@font-face { font-family: integral-bold; font-weight: bold; src: url('assets/fonts/IntegralCF-Bold.otf');}
+* {
+    font-family: 'Inter', sans-serif;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+.navbar-header{
+    background-color:white;
+    box-shadow : 0px 4px 4px rgba(0,0,0,0.15);
+}
+.header {
+    
+    
+    margin: 20px 20px 20px 20px;
+    font-size: 16px;
+}
+.border-header{
+    color: white;
+    border-radius: 5px;
+    background-color : #207DFF;
+    padding: 18px 18px 18px 18px;
+    
+}
+.icons-header{
+    margin-left: 45px;
+    
+}
+.solution-words{
+    font-size:10px;
+    font-family: integral;
+    color:#207DFF;
+}
+.hitrash-words{
+    font-family: integral-bold;
+    font-size: 18px;
+    color:#207DFF;
+}
+.konten{
+    
+    height: 663px;
+}
+.judul-konten1{
+    font-size:30px;
+    margin-top:153px;
+    margin-left : 150px;
+}
+.konten1{
+    font-size:20px;
+    margin-left :150px;
+}
+.part2{
+    background-color :rgba(174,211,255,0.4);
+}
+.judul-konten2{
+    font-size:48px;
+    margin-top:153px;
+    margin-left : 150px;
+    margin-bottom: 70px;
+}
+.konten2{
+    font-size:20px;
+    margin-left :150px;
+}
+/* BUAT KE TENGAH */
+.gambar-konten2{
+    
+    border-radius : 20px;
+    width: 400px;
+    height: 500px;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+    align-items: center;
+}
+.gambar2{
+    border-radius:20px;
+}
+.text-blue{
+    color:#207DFF;
+}

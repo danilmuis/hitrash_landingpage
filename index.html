@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitrash.co.id</title>
+    <script
+			  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+			  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/js/index.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-header" id="myHeader">
+        <a class="navbar-brand icons-header" href="#"><img src="assets/img/animasi4.png" width="50px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><div class="hitrash-words">HITRASH</div><div class="solution-words">SOLUTION OF YOUR TRASH</div><span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <span class="header">
+            TENTANG
+          </span>
+          <span class="header">
+            APLIKASI
+          </span>
+          <span class="border-header">
+            HUBUNGI KAMI
+          </span>
+        </div>
+    </nav>
+    <div class="konten row">
+      <div class="col-6">
+        <p class="judul-konten1">
+          Mari berpartisipasi dalam
+          menjaga lingkungan 
+        </p>
+        <p class="konten1">
+          HiTrash hadir sebagai solusi dalam menangani
+          permasalahan sampah di indonesia
+        </p>
+        <br>
+        <div class="konten1">
+        <span class="border-header"  >
+          Join with us
+        </span>
+      </div>
+
+      </div>
+      <div class="col-6">
+        <img src="assets/img/animasi4.png" width="500px" height="455px">
+      </div>
+    </div>
+    <div class="konten part2 row">
+      <div class="col-7">
+        <p class="judul-konten2">Tentang <span class="text-blue">HiTrash</span></p>
+        <p class="konten2">
+          HiTrash merupakan sebuah platfrom digital berbasis android
+          yang bergerak dibidang lingkungan, khususnya pengolahan sampah plastik
+        </p>
+        <p class="konten2">HiTrash menyediakan sistem pengelolaan sampah dari sumber 
+          hingga akhir melalui pengoptimalan peran pelaku daur ulang sampah 
+          dengan menggunakan teknologi tepat guna untuk menciptakan 
+          rantai daur ulang.</p>
+      </div>
+      <div class="col-5">
+        <div class="gambar-konten2 justify-content-center">
+          <img src="assets/img/sampah hi trash.jpg" width="80%" class="gambar2">
+        </div>
+      </div>
+    </div>
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>
+</body>
+</html>
